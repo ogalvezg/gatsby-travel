@@ -82,7 +82,8 @@ export const NavItem = styled.li`
     height: 80px;
 
     @media screen and (max-width: 960px) {
-        width: 100%;
+        /*
+        width: 100%;*/
     }
 ` 
 
@@ -95,15 +96,16 @@ export const NavLinks = styled(Link)`
     height: 100%;
     font-family: "Ubuntu", sans-serif;
 
+    &:hover {
+        color: #ff4040;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+        }
+
     @media scree and (max-width: 960px) {
         text-align: center;
         padding: 2rem;
         width: 100%;
         display: table;
-
-        &:hover {
-            color: #ff4040;
-            transition: all 0.3s ease;
-        }
     }
 `

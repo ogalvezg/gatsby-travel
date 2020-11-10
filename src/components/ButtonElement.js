@@ -1,6 +1,6 @@
-import style from "styled-components"
+import styled from "styled-components"
 
-export const Button = style.button`
+export const Button = styled.button`
     border-radius: 4px;
     background: ${({ primary }) => (primary ? "#FF4040" : "#0467FB")};
     white-space: nowrap;
@@ -21,3 +21,4 @@ export const Button = style.button`
         width: 100%;
     }
 `
+
