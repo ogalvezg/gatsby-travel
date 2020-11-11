@@ -98,7 +98,7 @@ export const NavLinks = styled(Link)`
 
     &:hover {
         color: #ff4040;
-        text-transform: uppercase;
+        transform: scale(1.1);
         transition: all 0.3s ease;
         }
 
